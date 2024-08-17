@@ -25,6 +25,7 @@ const Container = styled.div`
   justify-content: center;
   font-family: sans-serif;
   background-color: ${theme1};
+  color: ${theme2};
   `;
 
 const SwitchTheme = styled.div`
@@ -34,6 +35,7 @@ const SwitchTheme = styled.div`
   padding: 0 50px;
   height: 75px;
   background-color: ${theme2};
+  color: ${theme1};
   `;
 
 const App = () => {

@@ -1,5 +1,5 @@
 import * as actions from "./actions";
-import { combnieReducers } from "redux";
+import { combineReducers } from "redux";
 
 const preferences = (state = { darkThemeEnabled: false }, action) => {
     switch(action.type) {
@@ -10,4 +10,4 @@ const preferences = (state = { darkThemeEnabled: false }, action) => {
     }
 };
 
-export default combnieReducers({ preferences });
+export default combineReducers({ preferences });
