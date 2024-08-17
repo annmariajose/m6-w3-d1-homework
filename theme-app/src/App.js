@@ -1,5 +1,5 @@
 import React from "react";
-import styled, { ThemeProvider } from "styled-components";
+import styled from "styled-components";
 import theme from "styled-theming";
 import { Provider as ReduxProvider } from "react-redux";
 import DarkThemeProvider from "./DarkThemeProvider";
